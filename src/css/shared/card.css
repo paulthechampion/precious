@@ -112,6 +112,34 @@
 }
 
 
+@media(min-width :800px){ 
+    .card{
+        width:25em;
+        height: 15em;
+        perspective: 500px;
+        border-radius: 10px;
+        margin-bottom: 5em;
+        overflow: hidden;
+    }
+    .card-h3 {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+    
+    .card-p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    .card-link {
+        font-family: 'Lemonada', cursive;
+        font-size: 1.5em;
+        color: blue;
+        text-decoration: none;
+    }
+}
+
+
 @media(min-width :1085px){ 
     .card{
         width:40em;

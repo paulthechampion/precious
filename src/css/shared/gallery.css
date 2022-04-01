@@ -276,3 +276,12 @@
     height: unset;
     }
     }
+    @media(min-width :1440px){ 
+        .g-image12{
+            margin-left: -10%;
+            margin-top: -100%;
+            position: relative;
+            top:-4em;
+        }
+    }
+    

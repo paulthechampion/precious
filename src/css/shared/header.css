@@ -180,6 +180,12 @@ header{
   .fa-angle-down, .fa-angle-up:hover {
       cursor: pointer;
   }
+  @media(min-width :800px){ 
+    .header-ul >li{
+        font-size: 2em;
+    }
+  
+  }
 
   @media(min-width :1085px){   
     .header-ul >li{

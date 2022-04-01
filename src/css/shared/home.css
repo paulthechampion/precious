@@ -6,6 +6,9 @@
 }
 
 
+@media(min-width :800px){ 
+}
+
 @media(min-width :1085px){   
     .home{
         background-image: url("../../img/moon.gif");

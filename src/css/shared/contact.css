@@ -103,6 +103,73 @@
     background-image: linear-gradient(to right, #4C277B , #ADC8FF,#4E7F82);
 }
 
+@media(min-width :800px){ 
+    
+    .contact-flex-div{
+        min-width: 50em;
+        min-height: 30em;
+    }
+    .contForm {
+        margin-top: 4em;
+        text-align: center;
+        position: relative;
+        top: 0em;
+    }
+    .cont-br {
+        display: block;
+    }
+    .contact-div>div {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-div>div:first-child {
+        width: 25%;
+    }
+    .contForm > input:first-child{
+        position: relative;
+        left: unset;
+    }
+
+    .star {
+        width: 25em;
+        height: 25em;
+        display: block;
+        position: relative;
+        top: 2.5em;
+    }
+    
+    .contForm {
+        margin-top: 4em;
+        text-align: left;
+    }
+
+    .contForm > input{
+        width: 15em;
+        height: 2.5em;
+        border: 1.5px solid rgb(77, 76, 76);
+        margin-bottom: 1em;
+        border-radius: 5px;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-family: Roboto;
+        font-size: 1em;
+    }
+
+    .contForm > textarea {
+        width: 20em;
+        height: 10em;
+        resize: none;
+        border: 1.5px solid rgb(77, 76, 76);
+        margin-bottom: 1em;
+        border-radius: 5px;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-family: Roboto;
+        padding-top: .5em;
+    }
+}
+
 
 @media(min-width :1085px){ 
     .contact-flex-div{
