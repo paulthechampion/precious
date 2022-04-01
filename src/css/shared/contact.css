@@ -128,9 +128,12 @@
     }
     .contact-div>div:first-child {
         width: 25%;
-        position: unset;
+    }
+    .contForm > input:first-child{
+        position: relative;
         left: unset;
     }
+
     .star {
         width: 25em;
         height: 25em;
