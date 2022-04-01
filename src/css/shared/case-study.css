@@ -113,6 +113,10 @@
     height: 16em;
 }
 
+.final-flex-last >div:nth-child(2) {
+    padding-top: 3em;
+}
+
 .final-flex-last >div:nth-child(3) {
     padding-top: 3em;
 }
@@ -202,6 +206,10 @@
     .final-design:hover {
         width: 32em;
         height: 20em;
+    }
+    
+    .final-flex-last >div:nth-child(2) {
+        padding-top: 0em;
     }
     .miller-typo {
         height: 40em;
