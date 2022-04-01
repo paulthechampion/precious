@@ -1,0 +1,96 @@
+.contact-div {
+    background-image: url("../../img/moon2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    
+}
+
+.contact-flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e4e4e4;
+    min-width: 59em;
+    margin: auto;
+    justify-content: center;
+    min-height: 30em;
+    overflow: hidden;
+    
+}
+
+.contact-div>div {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-div>div:first-child {
+    width: 25%;
+}
+
+.star {
+    width: 25em;
+    height: 25em;
+    display: block;
+    position: relative;
+    top: 2.5em;
+    left: 1em;
+}
+
+.contForm {
+    margin-top: 4em;
+    text-align: left;
+}
+
+.contForm > input{
+    width: 20em;
+    height: 2.5em;
+    border: 1.5px solid rgb(77, 76, 76);
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Roboto;
+    font-size: 1em;
+}
+
+.contForm > textarea {
+    width: 28em;
+    height: 10em;
+    resize: none;
+    border: 1.5px solid rgb(77, 76, 76);
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Roboto;
+    padding-top: .5em;
+}
+
+
+.button-div {
+    text-align: center;
+}
+
+.button-div > button {
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top:.7em;
+    padding-bottom: .7em;
+    background-image: linear-gradient(to right, #4E7F82 , #ADC8FF,#4C277B);
+    transition:ease-in-out 1s;
+}
+
+.button-div > button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4C277B , #ADC8FF,#4E7F82);
+}

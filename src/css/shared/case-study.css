@@ -1,0 +1,213 @@
+.case-study-slide {
+    width: 100%;
+    height: 15em;
+    margin-bottom: 6em;
+}
+
+.case-section {
+    margin-top: -7em;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.case-section > h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 2em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.case-flex-div-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case-flex-div-1 > div {
+    width: 50%;
+    margin: auto;
+}
+
+.case-flex-div-1 > div:first-child {
+    text-align: left;
+}
+
+.case-flex-div-1 > div:last-child {
+    text-align: right;
+}
+
+.case-h2 {
+    font-family: roboto;
+    font-size: 1.5em;
+    margin-top: 2em;
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+.case-p {
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: 1.3em;
+    word-spacing: .3em;
+    letter-spacing: .1em;
+}
+
+.design-process {
+    width: 100%;
+    height: 10em;
+    margin-top: 3em;
+}
+
+.case-h3 {
+    text-align: center;
+    font-family: roboto;
+    font-size: 1.5em;
+    margin-top: 2em;
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+.case-typo {
+    width: 90%;
+    height:20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case-flow {
+    width: 93%;
+    height:15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case-wire {
+    width: 100%;
+    height: 10em;
+}
+
+.final-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.final-flex > div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.final-design {
+    text-align: center;
+    margin: auto;
+    width: 20em;
+    height: 14em;
+    transition: ease-in-out .2s;
+}
+
+.final-design:hover {
+    width: 22em;
+    height: 16em;
+}
+
+.final-flex-last >div:nth-child(3) {
+    padding-top: 3em;
+}
+
+.final-flex-last >div:last-child {
+    padding-top: 3em;
+}
+
+.final-flex-last {
+    padding-bottom: 5em;
+}
+
+.crypto-slide {
+    margin-top: 3.7em;
+}
+
+.crypto-section {
+    margin-top: -12em;
+}
+
+.crypto-section > h1 {
+    padding-top: 1.5em;
+}
+
+.job-flow {
+    height: 35em;
+}
+
+.miller-section {
+    margin-top: -13em;
+}
+
+.miller-section > h1{
+    padding-top: 1em;
+}
+
+.miller-typo {
+    height: 20em;
+}
+
+
+@media(min-width :1085px){  
+    .case-study-slide {
+        width: 100%;
+        height: 30em;
+        margin-bottom: 0;
+    }
+    .case-section {
+        margin-top: -13em;
+        background-color: white;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .case-section > h1 {
+        font-family: 'Metal Mania', cursive;
+        font-size: 3em;
+        padding-top: 2em;
+        text-align: center;
+    }
+    .case-p {
+        text-align: center;
+        padding-left: 4em;
+        padding-right: 4em;
+        font-size: 1.3em;
+    }
+    .design-process {
+        width: 100%;
+        height: 20em;
+    }
+    .case-typo {
+        width: 90%;
+        height:35em;
+    }
+    .case-flow {
+        height:35em;
+    }
+    .case-wire {
+        height: 30em;
+    }
+    .final-flex > div {
+        width: 45%;
+    }
+    .final-design {
+        width: 30em;
+        height: 18em;
+    }
+    .final-design:hover {
+        width: 32em;
+        height: 20em;
+    }
+    .miller-typo {
+        height: 40em;
+    }
+    .job-flow {
+        height: 70em;
+    }
+    
+}

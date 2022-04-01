@@ -1,0 +1,140 @@
+.card{
+    width:15em;
+    height: 8em;
+    perspective: 500px;
+    border-radius: 10px;
+    margin-bottom: 5em;
+    overflow: hidden;
+}
+
+.card:first-child {
+    margin-top: 7em;
+}
+
+.card:last-child{
+    padding-bottom: 5em;
+    margin-bottom: 0em;
+}
+
+.card_inner{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.card-back {
+    background-color: white;
+    opacity: .8;
+    position: relative;
+    bottom:101%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -101%;
+    border-radius: 10px;
+    display: none;
+    color: black;
+    text-align: center;
+}
+
+.card-back:last-child {
+    overflow: hidden;
+    bottom: 105%;
+}
+
+.card_inner:hover .card-back {
+    display: block;
+}
+
+.card_inner:hover {
+    opacity: .85;
+}
+
+.case {
+    height: 1.5em;
+}
+
+.card-h3 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 2em;
+    margin-top: .2em;
+}
+
+.card-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.card-link {
+    font-family: 'Lemonada', cursive;
+    font-size: 1em;
+    color: blue;
+    text-decoration: none;
+}
+
+
+.card_face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+    perspective: none;
+    -webkit-perspective:none;
+    -webkit-backface-visibility: hidden;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+}
+
+
+
+.portClass{
+    width: 100%;
+    height: 100%;
+    border: 2px solid  rgba(15, 15, 109, 0.7);
+    border-radius: 10px;
+}
+
+
+
+.show{display: block;}
+
+.portName{background-color: rgb(40, 29, 104) ;color:rgb(185, 114, 7) ;
+    text-align: center;padding: 5px;position: relative;bottom:50%; width: 98%;}
+/* .viewButton{position: absolute;top: 70%;left: 34%;} */
+.portLink-div{
+    display: flex;flex-wrap: wrap;position: absolute;top: 70%;left: 20%;
+}
+
+
+@media(min-width :1085px){ 
+    .card{
+        width:40em;
+        height: 20em;
+        perspective: 500px;
+        border-radius: 10px;
+        margin-bottom: 5em;
+        overflow: hidden;
+    }
+    .card-h3 {
+        font-family: 'Metal Mania', cursive;
+        font-size: 4em;
+        margin-top: 1em;
+    }
+    .card-p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+    }
+        
+    .card-link {
+        font-family: 'Lemonada', cursive;
+        font-size: 1.5em;
+        color: blue;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,206 @@
+header{
+    background-color: black;
+    margin-bottom: 3em;
+}
+.header-first-div {
+    padding-top: 2em;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-link-1 {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-link-1:hover {
+    color:rgb(102, 102, 102);
+}
+
+.header-first-div.shadow{
+    box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+}
+  
+.header-first-div.hidden{
+    transform: translateY(-110%);
+}
+
+.header-ul{
+    text-align: center;
+    list-style: none;
+}
+
+.header-ul >li{
+    display: inline;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    font-size: 1.5em;
+}
+
+.first-header-bottom {
+    border-bottom:3px solid rgb(110, 110, 110);
+    margin-top: .2em;
+    margin-bottom: .2em;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header-second-div{
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    z-index: 1;
+    transform: translateY(-100%);
+    transition: all .5s ease-out;
+    scrollbar-width: none;
+    width: 100%;
+}
+
+.header-second-div::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.header-second-div.open{
+   transform: translateY(0%);
+   left: 0%;
+  
+}
+
+.header-second-div-one {
+    padding-top: 8em;
+    background-color:black;
+    background-image: linear-gradient(#000000, rgb(75, 75, 75));
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3em;
+    
+    
+}
+
+.header-second-div-one > div {
+    width: 100%;
+    margin: auto;
+
+}
+
+.display-pic {
+    display: block;
+    margin: auto;
+    height: 20em;
+}
+
+.header-second-div-one > div :last-child{
+    text-align: center;
+    color: white;
+    font-family: roboto;
+    font-size: 1.3em;
+
+}
+
+.header-second-h1 {
+    margin-top: 2em;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    margin-bottom: .3em;
+}
+
+.header-second-h3 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    font-family: 'Flamenco', cursive;
+}
+
+.resume-div {
+    background-color: white;
+}
+
+
+
+.header-link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color:white;
+    margin-left: 1em;
+}
+
+.header-link:hover {
+    color: yellow;
+}
+
+.resume-div {
+    padding-top: 3em;
+}
+
+.resume-div>h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-family: 'Elsie Swash Caps', cursive;
+    color: #123F97;
+    font-size: 2.5em;
+ } 
+ 
+.resume-div>h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+     padding-left: 1em;
+     padding-right: 1em;
+ }
+
+@keyframes App-logo-spin {
+    from {
+      transform: 0
+    }
+    to {
+      transform:translateY(20px)
+
+    }
+  }
+  .fa-angle-down, .fa-angle-up{
+    animation-name:  App-logo-spin;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out .5s; 
+    
+  }
+  .fa-angle-down, .fa-angle-up:hover {
+      cursor: pointer;
+  }
+
+  @media(min-width :1085px){   
+    .header-ul >li{
+        margin-left: 3em;
+        margin-right: 3em;
+        font-size: 2em;
+    }
+    .header-second-div-one > div {
+        width: 40%;
+        margin: auto;
+    
+    }
+    .display-pic {
+        height: unset;
+    }
+    .header-link {
+        font-size: 1.5em;
+        margin-left: 1em;
+    }
+    .header-second-h1 {
+        margin-top: 0;
+        font-size: 3em;
+    }
+   }
