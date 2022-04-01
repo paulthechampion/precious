@@ -24,9 +24,9 @@ export default class MyForm extends React.Component {
       >
         
        
-        <input type="text" required className="inputCont" name="name" placeholder="Name"/><br/>
+        <input type="text" required className="inputCont" name="name" placeholder="Name"/><br className="cont-br"/>
         
-        <input type="email" required className="inputCont" name="email" placeholder="Email address"/><br/>
+        <input type="email" required className="inputCont" name="email" placeholder="Email address"/><br className="cont-br"/>
         
         <textarea className="inputText" name="message" placeholder="Message"></textarea><br/>
         <div className="button-div">         

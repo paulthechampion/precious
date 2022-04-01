@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 7em;
+    padding-top: 15em;
     padding-bottom: 7em;
     
 }
@@ -12,7 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #e4e4e4;
-    min-width: 59em;
+    min-width: 20em;
     margin: auto;
     justify-content: center;
     min-height: 30em;
@@ -21,43 +21,49 @@
 }
 
 .contact-div>div {
-    width: 40%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
 
 .contact-div>div:first-child {
-    width: 25%;
+    width: 100%;
 }
 
 .star {
-    width: 25em;
-    height: 25em;
+    width: 23em;
+    height: 19em;
     display: block;
     position: relative;
-    top: 2.5em;
-    left: 1em;
+    top: -5em;
 }
 
 .contForm {
-    margin-top: 4em;
-    text-align: left;
+    margin-top: -5em;
+    text-align: center;
+    position: relative;
+    top: -2.7em;
+}
+.cont-br {
+    display: none;
 }
 
 .contForm > input{
-    width: 20em;
-    height: 2.5em;
+    display: inline;
+    width: 9em;
+    height: 2em;
     border: 1.5px solid rgb(77, 76, 76);
     margin-bottom: 1em;
     border-radius: 5px;
-    padding-left: 1em;
-    padding-right: 1em;
     font-family: Roboto;
     font-size: 1em;
 }
+.contForm > input:first-child{
+    margin-right: 3em;
+}
 
 .contForm > textarea {
-    width: 28em;
+    width: 19em;
     height: 10em;
     resize: none;
     border: 1.5px solid rgb(77, 76, 76);
@@ -97,7 +103,68 @@
 
 
 @media(min-width :1085px){ 
+    .contact-flex-div{
+        min-width: 59em;
+        min-height: 30em;
+    }
     .contact-div {
         background-image: url("../../img/moon2.gif");
     }
+    .contForm {
+        margin-top: 4em;
+        text-align: center;
+        position: relative;
+        top: 0em;
+    }
+    .cont-br {
+        display: block;
+    }
+    .contact-div>div {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-div>div:first-child {
+        width: 25%;
+    }
+    .star {
+        width: 25em;
+        height: 25em;
+        display: block;
+        position: relative;
+        top: 2.5em;
+        left: 1em;
+    }
+    
+.contForm {
+    margin-top: 4em;
+    text-align: left;
+}
+
+.contForm > input{
+    width: 20em;
+    height: 2.5em;
+    border: 1.5px solid rgb(77, 76, 76);
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Roboto;
+    font-size: 1em;
+}
+
+.contForm > textarea {
+    width: 28em;
+    height: 10em;
+    resize: none;
+    border: 1.5px solid rgb(77, 76, 76);
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Roboto;
+    padding-top: .5em;
+}
+
+    
 }
