@@ -5,7 +5,7 @@
 .gallery-div > h1{
     text-align: center;
     font-family: 'Hurricane', cursive;
-
+    font-size: 1.5em;
 
 }
 
@@ -176,7 +176,11 @@
     z-index: 999;
   }
 
-
+  @media(min-width:800px) {
+    .gallery-div > h1{
+        font-size: 2em;
+    }
+  }
   @media(min-width :1085px){ 
       
     .wrapper {

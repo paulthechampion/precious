@@ -23,7 +23,7 @@ export default function () {
                     Contact me
                 </p>
                 <p>
-                   <a href="tel:+1(437)928-7832" className='link-class'>4379287832</a> 
+                   <a href="tel:+1(437)928-7832" className='link-class footer-number'>4379287832</a> 
                 </p>
                 <a href='mailto: enweremprecious16@gmail.com' className='link-class'>
                     enweremprecious16@gmail.com

@@ -1,6 +1,6 @@
 footer {
     background-color: #201F1F;
-    height: 15em;
+    height: 12em;
     color:white;
     font-family: roboto;
     padding-top: 1.5em;
@@ -23,7 +23,14 @@ footer {
 }
 
 .footer-flex >div:last-child {
+    margin-top: -5.2em;
     text-align: right;
+}
+
+.footer-number {
+    display: block;
+    padding-top: .7em;
+    margin-bottom: 2em;
 }
 
 .footer-bottom-margin{
@@ -53,6 +60,20 @@ footer {
 .copyright {
     margin-top: 2em;
     margin-left: 1em;
+}
+
+@media (min-width:800px) {
+    footer {
+        height: 15em;
+    }
+    .footer-flex >div:last-child {
+        margin-top: 0em;
+    }
+    .footer-number {
+        display: inline;
+        padding-top: 0em;
+        margin-bottom: 0em;
+    }
 }
 
 @media(min-width :1085px){ 

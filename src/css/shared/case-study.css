@@ -207,8 +207,11 @@
     .case-section > h1 {
         font-family: 'Metal Mania', cursive;
         font-size: 3em;
-        padding-top: 2em;
+        padding-top: 5em;
         text-align: center;
+    }
+    .crypto-section > h1 {
+        padding-top: 1.5em;
     }
     .case-p {
         text-align: center;
