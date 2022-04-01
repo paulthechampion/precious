@@ -10,7 +10,7 @@
 }
 
 .wrapper {
-    padding:4em 7em 7em 7em;
+    padding:4em 0em 7em 0em;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
@@ -29,9 +29,9 @@
   }
 
   .g-image1{
-    width: 25em;
-    height: 15em;
-    padding-top:5em;
+    width: 20em;
+    height: 10em;
+    padding-top:0em;
   }
 
   .g-image2{
@@ -39,21 +39,21 @@
     height: 15em;
     }
     .g-image3{
-        width: 25em;
-        height: 15em;
+        width: 20em;
+        height: 10em;
     }
     .g-image4{
        
-        width: 25em;
-        height: 15em;
+        width: 20em;
+        height: 10em;
     }
     .g-image5{
-        width: 35em;
-        height: 20em;
+        width: 20em;
+        height: 15em;
     }
     .g-image6{
-        width: 25em;
-        height: 15em;
+        width: 15em;
+        height: 10em;
     }
     .g-image7{
         width: 20em;
@@ -69,47 +69,47 @@
     }
     .g-image10{
         background-color: rgb(236, 236, 236);
-        width: 25em;
+        width: 20em;
         height: 15em;
-        margin-top: -60%;
     }
     .g-image11{
         background-color: rgb(236, 236, 236);
-        width: 37em;
-        height: 40em;
+        width: 20em;
+        height: 30em;
     }
     .g-image12{
         background-color: rgb(236, 236, 236);
-        width: 25em;
+        width: 20em;
         height: 15em;
-        margin-left: -160%;
-        margin-top: -100%;
-        position: relative;
-        top:-4em;
     }
     .g-image13{
-        width: 38em;
+        width: 15em;
         height: 20em;
     }
     .g-image14{
-        width: 24em;
+        width: 18em;
         height: 20em;
     }
     .g-image15{
-        width: 28em;
-        height: 35em;
+        width: 20em;
+        height: 30em;
     }
     .g-image16{
-        width: 28em;
-        height: 35em;
+        width: 20em;
+        height: 30em;
     }
     .g-image17{
-        width: 23em;
+        width: 20em;
         height: 30em;
     }
     .g-image18{
-        width: 23em;
-        height: 30em;
+        width: 18em;
+        height: 26em;
+    }
+    .g-image19{
+        padding-left: 2em;
+        width: 18em;
+        height: 26em;
     }
   /* modal */
   .overlay {
@@ -175,3 +175,104 @@
     top: 50%;
     z-index: 999;
   }
+
+
+  @media(min-width :1085px){ 
+      
+    .wrapper {
+        padding:4em 7em 7em 7em;
+    }
+  .g-image0{
+    width: 17em;
+    height: 15em;
+}
+
+.g-image1{
+  width: 25em;
+  height: 15em;
+  padding-top:5em;
+}
+
+.g-image2{
+  width: 18em;
+  height: 15em;
+  }
+  .g-image3{
+      width: 25em;
+      height: 15em;
+  }
+  .g-image4{
+     
+      width: 25em;
+      height: 15em;
+  }
+  .g-image5{
+      width: 35em;
+      height: 20em;
+  }
+  .g-image6{
+      width: 25em;
+      height: 15em;
+  }
+  .g-image7{
+      width: 20em;
+      height: 15em;
+  }
+  .g-image8{
+      width: 20em;
+      height: 15em;
+  }
+  .g-image9{
+      width: 20em;
+      height: 15em;
+  }
+  .g-image10{
+      background-color: rgb(236, 236, 236);
+      width: 25em;
+      height: 15em;
+      margin-top: -60%;
+  }
+  .g-image11{
+      background-color: rgb(236, 236, 236);
+      width: 37em;
+      height: 40em;
+  }
+  .g-image12{
+      background-color: rgb(236, 236, 236);
+      width: 25em;
+      height: 15em;
+      margin-left: -160%;
+      margin-top: -100%;
+      position: relative;
+      top:-4em;
+  }
+  .g-image13{
+      width: 38em;
+      height: 20em;
+  }
+  .g-image14{
+      width: 24em;
+      height: 20em;
+  }
+  .g-image15{
+      width: 28em;
+      height: 35em;
+  }
+  .g-image16{
+      width: 28em;
+      height: 35em;
+  }
+  .g-image17{
+      width: 23em;
+      height: 30em;
+  }
+  .g-image18{
+      width: 23em;
+      height: 30em;
+  }
+  .g-image19{
+    padding-left: 0;
+    width: unset;
+    height: unset;
+    }
+    }

@@ -1,5 +1,5 @@
 .contact-div {
-    background-image: url("../../img/moon2.gif");
+    background-image: url("../../img/moon4.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -93,4 +93,11 @@
 .button-div > button:hover {
     cursor: pointer;
     background-image: linear-gradient(to right, #4C277B , #ADC8FF,#4E7F82);
+}
+
+
+@media(min-width :1085px){ 
+    .contact-div {
+        background-image: url("../../img/moon2.gif");
+    }
 }

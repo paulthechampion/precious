@@ -1,6 +1,13 @@
 .home{
-    background-image: url("../../img/moon.gif");
+    background-image: url("../../img/moon3.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+@media(min-width :1085px){   
+    .home{
+        background-image: url("../../img/moon.gif");
+    }
 }
