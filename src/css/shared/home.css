@@ -24,15 +24,6 @@
     -o-background-attachment: fixed;
 }
 
-@supports (-webkit-touch-callout: none) {
-    .home {
-        background: url("../../img/moon3.gif") center top no-repeat fixed;
-        background-size: auto 100vh;
-    }    
-    }
-
-
-
 
 
 
