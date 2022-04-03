@@ -1,5 +1,9 @@
 .home{
     background-image: url("../../img/moon3.gif");
+    -webkit-background-image:url("../../img/moon3.gif");
+    -moz-background-image:url("../../img/moon3.gif");
+    -ms-background-image:url("../../img/moon3.gif");
+    -o-background-image:url("../../img/moon3.gif");
 
     background-repeat: no-repeat;
     -webkit-background-repeat: no-repeat;
@@ -19,6 +23,13 @@
     -ms-background-attachment: fixed;
     -o-background-attachment: fixed;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .home {
+        background: url("../../img/moon3.gif") center top no-repeat scroll;
+        background-size: auto 100vh;
+    }    
+    }
 
 .home:after{
     content:"";
