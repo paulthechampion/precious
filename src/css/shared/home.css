@@ -54,7 +54,7 @@ body:after{
     left:0;
     right:0;
     z-index:-1; /* needed to keep in the background */
-    /* background: url("../../img/moon3.gif") center center; */
+    background: url("../../img/moon3.gif") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,14 +71,14 @@ body:after{
     body{
         background-image: url("../../img/moon.gif");
     }
-    .home{
+    /* .home{
         /* background-image: url("../../img/moon.gif");
         -webkit-background-image:url("../../img/moon.gif");
         -moz-background-image:url("../../img/moon.gif");
         -ms-background-image:url("../../img/moon.gif");
         -o-background-image:url("../../img/moon.gif"); */
     
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat;
         -webkit-background-repeat: no-repeat;
         -moz-background-repeat: no-repeat;
         -ms-background-repeat: no-repeat;
@@ -91,5 +91,6 @@ body:after{
         -o-background-size: cover;
         background-attachment: fixed;  
        
-    }
+    }  */
+    
 }
