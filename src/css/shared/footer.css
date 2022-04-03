@@ -1,9 +1,8 @@
 footer {
     background-color: #201F1F;
-    height: 12em;
+    height: 10.5em;
     color:white;
     font-family: roboto;
-    padding-top: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -29,11 +28,14 @@ footer {
 
 .footer-number {
     display: block;
-    padding-top: .7em;
-    margin-bottom: 2em;
+    position: relative;
+    top:.7em;
+    margin-bottom: 1.5em;
 }
 
 .footer-bottom-margin{
+    position: relative;
+    top:1em;
     margin-bottom: 1em;
     font-size: 1.2em;
 }
@@ -59,7 +61,6 @@ footer {
 }
 .copyright {
     margin-top: 2em;
-    margin-left: 1em;
 }
 
 @media (min-width:800px) {
@@ -71,8 +72,17 @@ footer {
     }
     .footer-number {
         display: inline;
+        position: relative;
+        top:0em;
+        margin-bottom: 1em;
         padding-top: 0em;
         margin-bottom: 0em;
+    }
+    .footer-bottom-margin{
+        position: relative;
+        top:0em;
+        margin-bottom: 1em;
+        font-size: 1.2em;
     }
 }
 
