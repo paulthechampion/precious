@@ -26,10 +26,10 @@ export default function CryptoCoin() {
 
             <div className='case-flex-div-1'>
                 <div>
-                    <h2 className='case-h2'>Project duration: 8 weeks</h2>
+                    <h2 className='case-h2 case-h2-new'>Project duration: 8 weeks</h2>
                 </div>
                 <div>
-                    <h2 className='case-h2'>Tools used: Figma, Canvas and Invision</h2>
+                    <h2 className='case-h2 case-h2-new'>Tools used: Figma, Canvas and Invision</h2>
                 </div>
             </div>
 

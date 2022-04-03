@@ -25,10 +25,10 @@ export default function Millers() {
 
             <div className='case-flex-div-1'>
                 <div>
-                    <h2 className='case-h2'>Project duration: 3 weeks</h2>
+                    <h2 className='case-h2 case-h2-new'>Project duration: 3 weeks</h2>
                 </div>
                 <div>
-                    <h2 className='case-h2'>Tools used: Figma, Canvas and Invision</h2>
+                    <h2 className='case-h2 case-h2-new'>Tools used: Figma, Canvas and Invision</h2>
                 </div>
             </div>
 
@@ -108,7 +108,7 @@ export default function Millers() {
                     <a className='link-class' href="/case-study/cryptocoin"><img src={others2} alt="final design" className='final-design'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/jobfind"><img src={others4} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/jobfinds"><img src={others4} alt="final design" className='final-design'/></a>
                 </div>
                 <div>
                     <a className='link-class' href="/case-study/illustration"><img src={others3} alt="final design" className='final-design'/></a>
