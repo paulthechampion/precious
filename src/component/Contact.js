@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import star from "../img/star.jpeg"
 import Form from "./form"
-import moon from "../img/moon4.gif"
+import moonLap from "../img/moon2.gif"
+import moonPh from "../img/moon4.gif"
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -9,12 +10,19 @@ export default function Contact() {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 1085px)'
   })
-  if(isDesktopOrLaptop){
-    document.body.style.backgroundImage = "url('../img/moon2.gif')";
-  }
-  else {
-    document.body.style.backgroundImage = "url('../img/moon4.gif')";
-  }
+  var bodyStyle = document.body.style
+  
+  useEffect(()=>{
+    if(isDesktopOrLaptop){
+      // document.body.style.backgroundColor  = 'red';
+      bodyStyle.backgroundImage = "url(" + moonLap + ")";
+    
+    }
+    else {
+      bodyStyle.backgroundImage = "url(" + moonPh + ")";
+    }
+  },[])
+  
   return (
     <div className='contact-div'>
       <div className='contact-flex-div'>

@@ -36,7 +36,7 @@ body{padding: 0px;margin: 0px;
     
     background-repeat: no-repeat;
    
-    
+ 
     
     background-size:cover;
     
@@ -54,7 +54,7 @@ body:after{
     left:0;
     right:0;
     z-index:-1; /* needed to keep in the background */
-    background: url("../../img/moon3.gif") center center;
+    /* background: url("../../img/moon3.gif") center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,15 +68,15 @@ body:after{
 }
 
 @media(min-width :1085px){   
-    /* body{
+    body{
         background-image: url("../../img/moon.gif");
-    } */
+    }
     .home{
-        background-image: url("../../img/moon.gif");
+        /* background-image: url("../../img/moon.gif");
         -webkit-background-image:url("../../img/moon.gif");
         -moz-background-image:url("../../img/moon.gif");
         -ms-background-image:url("../../img/moon.gif");
-        -o-background-image:url("../../img/moon.gif");
+        -o-background-image:url("../../img/moon.gif"); */
     
         background-repeat: no-repeat;
         -webkit-background-repeat: no-repeat;
@@ -89,7 +89,6 @@ body:after{
         -moz-background-size: cover;
         -ms-background-size: cover;
         -o-background-size: cover;
-    
         background-attachment: fixed;  
        
     }
