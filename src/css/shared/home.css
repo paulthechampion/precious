@@ -20,25 +20,7 @@
     -o-background-attachment: fixed;
 }
 
- 
-body{padding: 0px;margin: 0px;
-    
-
-  
-    
-    background-repeat: no-repeat;
-   
-    
-    
-    background-size:cover;
-    
-    background-attachment: fixed;
-
-    
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-body:after{
+.home:after{
     content:"";
     position:fixed; /*stretch a fixed position to the whole screen*/
     top:0;
