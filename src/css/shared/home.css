@@ -1,9 +1,60 @@
 .home{
     background-image: url("../../img/moon3.gif");
+
     background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -ms-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    -o-background-attachment: fixed;
 }
+
+/* 
+body{padding: 0px;margin: 0px;
+    
+
+  
+    
+    background-repeat: no-repeat;
+   
+    
+    
+    background-size:cover;
+    
+    background-attachment: fixed;
+
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    /* top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    /* left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    /* background: url("webtest.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */ 
+
+
+
 
 
 @media(min-width :800px){ 
