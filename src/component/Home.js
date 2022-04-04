@@ -21,12 +21,14 @@ export default function Home() {
     useEffect(()=>{
         if(isDesktopOrLaptop){
           // document.body.style.backgroundColor  = 'red';
-          bodyStyle.backgroundImage = "url(" + moonLap + ")";
           bodyStyle.setProperty('--test',"url(" + moonLap + ")" + " center center" )
+          bodyStyle.backgroundImage = "url(" + moonLap + ")";
+          
         }
         else {
-          bodyStyle.backgroundImage = "url(" + moonPh+ ")"
+            
           bodyStyle.setProperty('--test',"url(" + moonPh + ")" + " center center" )
+          bodyStyle.backgroundImage = "url(" + moonPh+ ")"
 
         }
       },[])
