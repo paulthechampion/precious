@@ -15,14 +15,20 @@ export default function Home() {
         query: '(min-width: 1085px)'
       })
       var bodyStyle = document.body.style
+      var bodyAfter = window.getComputedStyle(
+        document.querySelector('body'), ':after'
+      ).getPropertyValue('background')
+      
     
     useEffect(()=>{
         if(isDesktopOrLaptop){
           // document.body.style.backgroundColor  = 'red';
           bodyStyle.backgroundImage = "url(" + moonLap + ")";
+          bodyAfter = "url(" + moonLap + ")"
         }
         else {
           bodyStyle.backgroundImage = "url(" + moonPh+ ")";
+          bodyAfter = "url(" + moonPh+ ")"
 
         }
       },[])
