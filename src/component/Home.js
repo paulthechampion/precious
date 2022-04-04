@@ -27,8 +27,8 @@ export default function Home() {
           bodyAfter = "url(" + moonLap + ")" + " center center"
         }
         else {
-          bodyStyle.backgroundImage = "url(" + moonPh+ ")"+ " center center";
-          bodyAfter = "url(" + moonPh+ ")"
+          bodyStyle.backgroundImage = "url(" + moonPh+ ")"
+          bodyAfter = "url(" + moonPh+ ")" + " center center";
 
         }
       },[])
