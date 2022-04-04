@@ -28,7 +28,7 @@ export default function Home() {
         else {
             
           bodyStyle.setProperty('--test',"url(" + moonPh + ")" + " center center" )
-          bodyStyle.backgroundImage = "url(" + moonPh+ ")"
+        //   bodyStyle.backgroundImage = "url(" + moonPh+ ")"
 
         }
       },[])
