@@ -17,18 +17,18 @@ export default function Home() {
       var bodyStyle = document.body.style
       var bodyAfter = window.getComputedStyle(
         document.querySelector('body'), ':after'
-      ).getPropertyValue('background')
+      )
       
     
     useEffect(()=>{
         if(isDesktopOrLaptop){
           // document.body.style.backgroundColor  = 'red';
           bodyStyle.backgroundImage = "url(" + moonLap + ")";
-          bodyAfter = "url(" + star + ")" + " center center"
+          bodyAfter.style.backgound= "url(" + star + ")" + " center center"
         }
         else {
           bodyStyle.backgroundImage = "url(" + moonPh+ ")"
-          bodyAfter = "url(" + star+ ")" + " center center";
+          bodyAfter.style.backgound = "url(" + star+ ")" + " center center";
 
         }
       },[])
