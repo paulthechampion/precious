@@ -26,11 +26,11 @@ html {
     scroll-behavior: smooth;
   }
 body{padding: 0px;margin: 0px;
-    background-image:url("../../img/moon3.gif");
+    /* background-image:url("../../img/moon3.gif");
     -webkit-background-image:url("../../img/moon3.gif");
     -moz-background-image:url("../../img/moon3.gif");
     -ms-background-image:url("../../img/moon3.gif");
-    -o-background-image:url("../../img/moon3.gif");
+    -o-background-image:url("../../img/moon3.gif"); */
 
   
     
@@ -44,22 +44,23 @@ body{padding: 0px;margin: 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
 }
+  
+/* 
 body:after{
     content:"";
     position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
+    /* top:0;
     height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
+    /* left:0;
     right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url("../../img/moon3.gif") center center;
-    -webkit-background-size: cover;
+    z-index:-1; needed to keep in the background */ 
+    /* background: url("../../img/moon3.gif") center center; */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */ 
 
 
 
@@ -68,9 +69,9 @@ body:after{
 }
 
 @media(min-width :1085px){   
-    body{
+    /* body{
         background-image: url("../../img/moon.gif");
-    }
+    } */
     /* .home{
         /* background-image: url("../../img/moon.gif");
         -webkit-background-image:url("../../img/moon.gif");

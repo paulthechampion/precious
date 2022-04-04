@@ -1,12 +1,31 @@
-import React from 'react'
+import React,{useEffect}  from 'react'
 import Works from "./Works"
 
 import lenis from "../img/lenis.png"
 import crypto from "../img/crypto.png"
 import job from "../img/job.png"
 import illus from "../img/illus.png"
+import { useMediaQuery } from 'react-responsive'
+import moonLap from "../img/moon.gif"
+import moonPh from "../img/moon3.gif"
+
 
 export default function Home() {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-width: 1085px)'
+      })
+      var bodyStyle = document.body.style
+    
+    useEffect(()=>{
+        if(isDesktopOrLaptop){
+          // document.body.style.backgroundColor  = 'red';
+          bodyStyle.backgroundImage = "url(" + moonLap + ")";
+        }
+        else {
+          bodyStyle.backgroundImage = "url(" + moonPh+ ")";
+
+        }
+      },[])
   return (
     <div className='home'>
         <div className='works-div'>
