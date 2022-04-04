@@ -15,20 +15,18 @@ export default function Home() {
         query: '(min-width: 1085px)'
       })
       var bodyStyle = document.body.style
-      var bodyAfter = window.getComputedStyle(
-        document.querySelector('body'), ':after'
-      )
+      
       
     
     useEffect(()=>{
         if(isDesktopOrLaptop){
           // document.body.style.backgroundColor  = 'red';
           bodyStyle.backgroundImage = "url(" + moonLap + ")";
-          bodyAfter.style.backgound= "url(" + star + ")" + " center center"
+          bodyStyle.setProperty('--test',"url(" + moonLap + ")" + " center center" )
         }
         else {
           bodyStyle.backgroundImage = "url(" + moonPh+ ")"
-          bodyAfter.style.backgound = "url(" + star+ ")" + " center center";
+          bodyStyle.setProperty('--test',"url(" + moonPh + ")" + " center center" )
 
         }
       },[])

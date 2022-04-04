@@ -19,11 +19,11 @@ export default function Contact() {
     if(isDesktopOrLaptop){
       // document.body.style.backgroundColor  = 'red';
       bodyStyle.backgroundImage = "url(" + moonLap + ")";
-      bodyAfter = "url(" + star + ")" + " center center"
+      bodyStyle.setProperty('--test',"url(" + moonLap + ")" + " center center" )
     }
     else {
       bodyStyle.backgroundImage = "url(" + moonPh+ ")";
-      bodyAfter = "url(" + star+ ")" + " center center"
+      bodyStyle.setProperty('--test',"url(" + moonPh + ")" + " center center" )
     }
   },[])
   
