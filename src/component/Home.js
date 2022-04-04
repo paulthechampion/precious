@@ -1,6 +1,6 @@
 import React,{useEffect}  from 'react'
 import Works from "./Works"
-
+import star from "../img/star.jpeg"
 import lenis from "../img/lenis.png"
 import crypto from "../img/crypto.png"
 import job from "../img/job.png"
