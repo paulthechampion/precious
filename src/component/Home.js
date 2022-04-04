@@ -24,11 +24,11 @@ export default function Home() {
         if(isDesktopOrLaptop){
           // document.body.style.backgroundColor  = 'red';
           bodyStyle.backgroundImage = "url(" + moonLap + ")";
-          bodyAfter = "url(" + moonLap + ")" + " center center"
+          bodyAfter = "url(" + star + ")" + " center center"
         }
         else {
           bodyStyle.backgroundImage = "url(" + moonPh+ ")"
-          bodyAfter = "url(" + moonPh+ ")" + " center center";
+          bodyAfter = "url(" + star+ ")" + " center center";
 
         }
       },[])
