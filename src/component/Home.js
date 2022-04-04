@@ -22,7 +22,7 @@ export default function Home() {
         if(isDesktopOrLaptop){
           // document.body.style.backgroundColor  = 'red';
           bodyStyle.setProperty('--test',"url(" + moonLap + ")" + " center center" )
-          bodyStyle.backgroundImage = "url(" + moonLap + ")";
+        //   bodyStyle.backgroundImage = "url(" + moonLap + ")";
           
         }
         else {
