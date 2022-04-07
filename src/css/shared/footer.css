@@ -27,7 +27,7 @@ footer {
 }
 
 .footer-number {
-    display: block;
+    display: inline-block;
     position: relative;
     top:.7em;
     margin-bottom: 1.5em;
