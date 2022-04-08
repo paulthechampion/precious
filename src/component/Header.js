@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import useDocumentScrollThrottled from './scrollFunction'
 import { useMediaQuery } from 'react-responsive'
 import { PDFReader,MobilePDFReader } from 'react-read-pdf';
-import { Document, Page, pdfjs  } from 'react-pdf/dist/esm/entry.webpack';
+import { Document, Page} from 'react-pdf/dist/esm/entry.webpack';
 //pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
 
