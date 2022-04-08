@@ -107,9 +107,7 @@ export default function JobFind() {
                 <div>
                     <a href="https://www.figma.com/proto/JpUn0M7I6MFPef5eGUpbEd/Job-finds?page-id=0%3A1&node-id=1%3A4&viewport=241%2C48%2C0.14&scaling=scale-down&starting-point-node-id=144%3A13" className='link-class' target="_blank"><img src={final1} alt="final design" className='final-design'/></a>
                 </div>
-                <div>
-                    <a href="https://www.figma.com/proto/JpUn0M7I6MFPef5eGUpbEd/Job-finds?page-id=0%3A1&node-id=1%3A4&viewport=241%2C48%2C0.14&scaling=scale-down&starting-point-node-id=144%3A13" className='link-class' target="_blank"><img src={final2} alt="final design" className='final-design'/></a>
-                </div>
+                
             </div>
 
             <h3 className='case-h3'>

@@ -101,9 +101,7 @@ export default function CryptoCoin() {
                 <div>
                     <a href="https://www.figma.com/proto/kwxd6PoEVjnddQ3FvuQ5fO/crypto-coin?page-id=0%3A1&node-id=2%3A22&viewport=241%2C48%2C0.36&scaling=scale-down&starting-point-node-id=2%3A2" className='link-class' target="_blank"><img src={final1} alt="final design" className='final-design'/></a>
                 </div>
-                <div>
-                    <a href="https://www.figma.com/proto/kwxd6PoEVjnddQ3FvuQ5fO/crypto-coin?page-id=0%3A1&node-id=2%3A22&viewport=241%2C48%2C0.36&scaling=scale-down&starting-point-node-id=2%3A2" className='link-class' target="_blank"><img src={final2} alt="final design" className='final-design'/></a>
-                </div>
+                
             </div>
 
             <h3 className='case-h3'>
