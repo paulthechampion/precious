@@ -159,7 +159,32 @@ header{
      padding:0 10px; 
      padding-left: 1em;
      padding-right: 1em;
- }
+}
+
+.header-last-div {
+  text-align: center;
+}
+
+.download {
+    margin-top: 1em;
+    font-family: 'Elsie Swash Caps', cursive;
+    color: #123F97;
+}
+
+.last-word {
+    margin-top: 2em;
+    padding-bottom: 2em;
+    font-family: Babylonica;
+    word-spacing: .3em;
+    font-weight: bolder;
+}
+
+.react-pdf__Document{
+    margin: auto;
+    text-align: center;
+    
+}
+
 
 @keyframes App-logo-spin {
     from {
@@ -184,7 +209,15 @@ header{
     .header-ul >li{
         font-size: 2em;
     }
-  
+    .download {
+        font-size: 3em;
+    }
+    
+    .last-word {
+        margin-top: 1em;
+        font-size: 3em;
+        font-weight: unset;
+    }
   }
 
   @media(min-width :1085px){   

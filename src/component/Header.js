@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import useDocumentScrollThrottled from './scrollFunction'
 import { useMediaQuery } from 'react-responsive'
 import { PDFReader,MobilePDFReader } from 'react-read-pdf';
+import { Document, Page, pdfjs  } from 'react-pdf/dist/esm/entry.webpack';
+//pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
 
 
@@ -14,6 +16,9 @@ export default function Header() {
       })
     
     const [showMenu, setShowMenu]= useState(false)
+    const [numPages, setNumPages] = useState(null);
+    const [pageNumber, setPageNumber] = useState(1);
+
     let navClasses = "header-second-div"
     let iconClass = "fas fa-angle-down"
     if(showMenu){
@@ -45,6 +50,10 @@ export default function Header() {
   
     const shadowStyle = shouldShowShadow ? 'shadow' : '';
     const hiddenStyle = shouldHideHeader ? 'hidden' : '';
+
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
+      }
     
 
     return (
@@ -94,13 +103,25 @@ export default function Header() {
                     {isDesktopOrLaptop?
                         <PDFReader url={resume}/>
                     :   <div  style={{overflow:'scroll',height:600}}>
-                            <MobilePDFReader url={resume} isShowFooter={false} className="zak"/>
-                            
-                            <a href = {resume} target = "_blank">Download Pdf</a>
-                    
+                            <Document file={resume} onLoadSuccess={onDocumentLoadSuccess} className renderMode='svg'>
+                                <Page pageNumber={pageNumber} />
+                            </Document>
+                            {/* <p>
+                                Page {pageNumber} of {numPages}
+                            </p> */}
                         </div>
                     }
+                    <div className='header-last-div'>
+                        <div className='download'>
+                            <a href={resume} target="_blank">Download Resume</a>
+                        </div>
+                        <div className='last-word'>
+                            <p>“ The next big thing is the one that makes the last big thing usable”</p>
+                            <p>-Blake Ross</p>
+                        </div>
+                    </div>
                 </div>
+                
                 
             </div>
         </header>
