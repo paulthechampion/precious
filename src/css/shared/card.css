@@ -5,6 +5,7 @@
     border-radius: 10px;
     margin-bottom: 5em;
     overflow: hidden;
+    opacity: 1;
 }
 
 .card:first-child {
@@ -23,6 +24,7 @@
     transform-style: preserve-3d;
     position: relative;
     border-radius: 10px;
+    opacity: 1;
 }
 
 
@@ -50,7 +52,7 @@
 }
 
 .card_inner:hover {
-    opacity: .85;
+    opacity: 1;
 }
 
 .case {
