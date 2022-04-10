@@ -113,7 +113,7 @@ export default function Header() {
                     }
                     <div className='header-last-div'>
                         <div className='download'>
-                            <a href={resume} target="_blank">Download Resume</a>
+                            <a href={resume} target="_blank">Download Complete Resume</a>
                         </div>
                         <div className='last-word'>
                             <p>“ The next big thing is the one that makes the last big thing usable”</p>
