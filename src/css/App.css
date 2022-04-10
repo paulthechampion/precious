@@ -21,6 +21,7 @@ body{
 @import "./shared/case-study.css";
 @import "./shared/contact.css";
 @import "./shared/gallery.css";
+@import "./shared/astro.css";
 
 .link-class {
   text-decoration: none;
@@ -31,3 +32,12 @@ body{
   color: red;
 }
 
+.astro {
+  position: fixed;
+  top:10em;
+  cursor: auto;
+  right: 2em;
+  z-index: -1.5;
+  height: 20em;
+  transition: ease-in-out .2s;
+}

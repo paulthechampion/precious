@@ -8,6 +8,7 @@ import illus from "../img/illus.png"
 import { useMediaQuery } from 'react-responsive'
 import moonLap from "../img/moon.gif"
 import moonPh from "../img/moon3.gif"
+import astro from "../img/astro.png"
 
 
 export default function Home() {
@@ -60,6 +61,14 @@ export default function Home() {
                             p:"Creative illustrations made and designed by me", 
                             h3:"Illustration"}}
             />
+        </div>
+        <div id='wrapper'>
+            <div id='float'>
+            <div class='astronaut'><img src='https://www.orchard.co.uk/Astronaut-EVA_edit3(1).png'/></div>
+            {/* <!--<div class='floatin'>Access Trumps Ownership</div>
+            <div class='behind'>Access Trumps Ownership</div>-->
+            <!--<div class='bg'>Access Trumps Ownership</div>--> */}
+            </div>
         </div>
     </div>
   )

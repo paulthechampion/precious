@@ -1,0 +1,167 @@
+body {
+    background:url('http://images2.layoutsparks.com/1/241785/galaxy-fairy-starry-sky.gif');
+    
+    animation: space 50s infinite;
+    -webkit-animation: space 50s infinite;
+    overflow-x: hidden;
+  }
+  
+  #wrapper {
+    animation:astronaut 50s infinite;
+    -webkit-animation: astronaut 50s infinite;
+    position: fixed;
+    right: 6em;
+    top:15em;
+    
+  }
+  
+  #float {
+    background:transparent;
+    height:auto;
+    text-align:center;
+    text-transform:uppercase;
+    color:#fff;
+    
+  }
+  
+  .astronaut {
+       animation: float 10s infinite;
+      -webkit-animation: float 10s infinite; /* Chrome, Safari, Opera */ 
+      
+  }
+  
+  .astronaut img {
+      width:4em;
+      height:auto;
+  }
+  
+  .floatin {
+      font-size:2em;
+      font-family:sans-serif;
+      
+      animation: sigit-float 10s infinite;
+      -webkit-animation: sigit-float 10s infinite; /* Chrome, Safari, Opera */ 
+      
+  }
+  
+  .behind {
+    font-size: 4em;
+    font-family:sans-serif;
+    z-index:-1;
+    opacity:0.3;
+    top:-100px;
+    position:fix;
+    
+    animation: sigit-float-behind 3s infinite;
+    -webkit-animation: sigit-float-behind 3s infinite; /* Chrome, Safari, Opera */ 
+    
+  }
+  
+  
+  
+  @keyframes float {
+    0%, 100% {
+   transform:translate(20px,50px); 
+       }
+      
+    50% {
+      transform:translate(50px,100px);
+  
+      }
+   
+  }
+  
+  @-webkit-keyframes float {
+      0%, 100% {transform:translate(20px,20px);}
+      50% {transform:translate(20px,80px);}
+    
+  }
+  
+  @keyframes sigit-float-behind {
+     0%, 100% {           transform:translate(20px,0px); 
+       }
+      
+    50% {
+      transform:translate(20px,20px);
+  
+      }
+   
+  }
+  
+  @-webkit-keyframes sigit-float-behind {
+      0%, 100% {transform:translate(20px,0px);}
+      50% {transform:translate(20px,10px);}
+    
+  }
+  
+  
+  @keyframes sigit-float-bg {
+     0%, 100% {           transform:translate(20px,0px); 
+       }
+      
+    50% {
+      transform:translate(20px,50px);
+  
+      }
+   
+  }
+  
+  @-webkit-keyframes sigit-float-bg {
+      0%, 100% {transform:translate(20px,0px);}
+      50% {transform:translate(20px,50px);}
+    
+  }
+  
+  @keyframes sigit-float-bg {
+     0%, 100% {           transform:translate(20px,0px); 
+       }
+      
+    50% {
+      transform:translate(20px,50px);
+  
+      }
+   
+  }
+  
+  @-webkit-keyframes sigit-float-bg {
+      0%, 100% {transform:translate(20px,0px);}
+      50% {transform:translate(20px,50px);}
+    
+  }
+  
+  @keyframes astronaut {
+     0%, 100% { transform:scale(1,1); 
+       }
+      
+    50% {
+     transform:scale(2,2);
+  
+      }
+   
+  }
+  
+  @-webkit-keyframes astronaut {
+     0%, 100% { transform:scale(1,1); 
+       }
+      
+      50% {
+     transform:scale(2,2);
+  
+      }
+   
+  }
+  
+  
+
+@media(min-width :1085px){ 
+    #wrapper {
+        right: 10em;
+        top:10em;
+        
+      }
+    .astronaut img {
+        width:10em;
+        height:auto;
+    }
+    
+}

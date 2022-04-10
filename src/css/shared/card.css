@@ -6,6 +6,7 @@
     margin-bottom: 5em;
     overflow: hidden;
     opacity: 1;
+    cursor: auto;
 }
 
 .card:first-child {

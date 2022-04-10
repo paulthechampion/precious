@@ -67,6 +67,7 @@ footer {
 @media (min-width:800px) {
     footer {
         height: 15em;
+        cursor: auto;
     }
     .footer-flex >div:last-child {
         margin-top: 0em;

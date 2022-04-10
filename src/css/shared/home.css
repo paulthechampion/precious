@@ -21,6 +21,10 @@
    
 } */
 
+.home {
+    cursor: url('../../img/satel1.png'), auto;
+    
+}
 
 html {
     scroll-behavior: smooth;
@@ -30,10 +34,10 @@ body{padding: 0px;margin: 0px;
     -webkit-background-image:url("../../img/moon3.gif");
     -moz-background-image:url("../../img/moon3.gif");
     -ms-background-image:url("../../img/moon3.gif");
-    -o-background-image:url("../../img/moon3.gif"); */
-
+    -o-background-image:cc; */
     --test:black;
     
+
     background-repeat: no-repeat;
    
  
