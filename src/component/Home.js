@@ -1,6 +1,5 @@
 import React,{useEffect}  from 'react'
 import Works from "./Works"
-import star from "../img/star.jpeg"
 import lenis from "../img/lenis.png"
 import crypto from "../img/crypto.png"
 import job from "../img/job.png"
@@ -64,7 +63,7 @@ export default function Home() {
         </div>
         <div id='wrapper'>
             <div id='float'>
-            <div class='astronaut'><img src='https://www.orchard.co.uk/Astronaut-EVA_edit3(1).png'/></div>
+            <div class='astronaut'><img src={astro}/></div>
             {/* <!--<div class='floatin'>Access Trumps Ownership</div>
             <div class='behind'>Access Trumps Ownership</div>-->
             <!--<div class='bg'>Access Trumps Ownership</div>--> */}
