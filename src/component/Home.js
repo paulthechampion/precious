@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div id='wrapper'>
             <div id='float'>
-            <div class='astronaut'><img src={astro}/></div>
+            <div className='astronaut'><img src={astro}/></div>
             {/* <!--<div class='floatin'>Access Trumps Ownership</div>
             <div class='behind'>Access Trumps Ownership</div>-->
             <!--<div class='bg'>Access Trumps Ownership</div>--> */}
