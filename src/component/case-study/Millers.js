@@ -25,30 +25,30 @@ export default function Millers() {
 
             <div className='case-flex-div-1'>
                 <div>
-                    <h2 className='case-h2 case-h2-new'>Project duration: 3 weeks</h2>
+                    <h2 className='case-h2 case-h2-new slide-in from-left'>Project duration: 3 weeks</h2>
                 </div>
                 <div>
-                    <h2 className='case-h2 case-h2-new'>Tools used: Figma, Canvas and Invision</h2>
+                    <h2 className='case-h2 case-h2-new slide-in from-right'>Tools used: Figma, Canvas and Invision</h2>
                 </div>
             </div>
 
-            <h2 className='case-h2'>Overview</h2>
-            <p className='case-p'>
+            <h2 className='case-h2 slide-in from-left'>Overview</h2>
+            <p className='case-p fade-in'>
                 In my search for a new project I discovered Miler’s  Luxury 
                 Cleaning and I decided to redesign the website to create a better 
                 user experience.
             </p>
 
-            <h2 className='case-h2'>Goals</h2>
+            <h2 className='case-h2 slide-in from-left'>Goals</h2>
             <div className='case-p'>
                 <ul>
-                    <li>
+                    <li className='slide-in from-left'>
                         Rebuild the information architecture for the website to meet users needs
                     </li>
-                    <li>           
+                    <li className='slide-in from-right'>           
                         Redesign website the lines with the brand’s identity 
                     </li>
-                    <li>
+                    <li className='slide-in from-left'>
                         Make bookings easier and faster
                     </li>
                     
@@ -58,13 +58,13 @@ export default function Millers() {
             <div>
                 <img src={process} alt="design process" className='design-process'/>
             </div>
-            <h2 className='case-h2'>My Thought Process</h2>
-            <p className='case-p'>
+            <h2 className='case-h2 slide-in from-left'>My Thought Process</h2>
+            <p className='case-p fade-in'>
                 To redesign Miller’s Luxury Cleaning I had to research the company and understand 
                 the ins and outs of their current website. I began to study the colour, images, icons 
                 and typography used on the website, I also began to study the various tabs and their uses.
-                When creating my design I decided to combine the home and about me tab and I also changed the 
-                colour theme and typography to better suit the company's name and ideas. I also decided to 
+                When creating my design I decided to combine the home and about me tab, and I also changed the 
+                colour theme and typography to better suit the company's name and ideas. I then decided to 
                 place a “Book Now” feature on the header of every page to make it easier for users to book a 
                 cleaning appointment quickly and easily. I wanted to create a design that was different from 
                 the company's website but still hard some similarities and represents the company’s values.
@@ -74,7 +74,7 @@ export default function Millers() {
             </h3>
 
             <div>
-                <img src={typo} alt="case typography" className='case-typo miller-typo'/>
+                <img src={typo} alt="case typography" className='case-typo miller-typo fade-in'/>
             </div>
 
             <h3 className='case-h3'>
@@ -82,7 +82,7 @@ export default function Millers() {
             </h3>
 
             <div>
-                <img src={flow} alt="User flow" className='case-flow job-flow'/>
+                <img src={flow} alt="User flow" className='case-flow job-flow fade-in'/>
             </div>
 
 
@@ -92,7 +92,7 @@ export default function Millers() {
 
             <div className='final-flex'>
                 <div>
-                    <a href="https://www.figma.com/proto/JpUn0M7I6MFPef5eGUpbEd/Job-finds?page-id=0%3A1&node-id=1%3A4&viewport=241%2C48%2C0.14&scaling=scale-down&starting-point-node-id=144%3A13" className='link-class' target="_blank"><img src={final1} alt="final design" className='final-design'/></a>
+                    <a href="https://www.figma.com/proto/JpUn0M7I6MFPef5eGUpbEd/Job-finds?page-id=0%3A1&node-id=1%3A4&viewport=241%2C48%2C0.14&scaling=scale-down&starting-point-node-id=144%3A13" className='link-class' target="_blank"><img src={final1} alt="final design" className='final-design fade-in'/></a>
                 </div>
             </div>
 
@@ -102,16 +102,16 @@ export default function Millers() {
 
             <div className='final-flex final-flex-last'>
                 <div>
-                    <a className='link-class' href="/case-study/lenis"><img src={others1} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/lenis"><img src={others1} alt="final design" className='final-design slide-in from-left'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/cryptocoin"><img src={others2} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/cryptocoin"><img src={others2} alt="final design" className='final-design slide-in from-right'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/jobfinds"><img src={others4} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/jobfinds"><img src={others4} alt="final design" className='final-design slide-in from-left'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/illustration"><img src={others3} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/illustration"><img src={others3} alt="final design" className='final-design slide-in from-right'/></a>
                 </div>
             </div>
         </section>

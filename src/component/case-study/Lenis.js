@@ -26,41 +26,41 @@ export default function Lenis() {
 
             <div className='case-flex-div-1'>
                 <div>
-                    <h2 className='case-h2 case-h2-new'>Project duration: 4 weeks</h2>
+                    <h2 className='case-h2 slide-in from-left'>Project duration: 4 weeks</h2>
                 </div>
                 <div>
-                    <h2 className='case-h2 case-h2-new'>Tools used: Figma, Canvas and Invision</h2>
+                    <h2 className='case-h2 slide-in from-right'>Tools used: Figma, Canvas and Invision</h2>
                 </div>
             </div>
 
-            <h2 className='case-h2'>Overview</h2>
-            <p className='case-p'>
+            <h2 className='case-h2 slide-in from-left'>Overview</h2>
+            <p className='case-p fade-in'>
                 The need of mobile shopping apps has reached an all time high due to the pandemic, 
-                but they are very few apps to satisfy consumers needs. I decided to design a simple 
+                but there are very few apps to satisfy consumers needs. I decided to design a simple 
                 yet diverse and innovative shopping app.
             </p>
 
-            <h2 className='case-h2'>Problems</h2>
-            <p className='case-p'>
+            <h2 className='case-h2 slide-in from-left'>Problems</h2>
+            <p className='case-p fade-in'>
                 For the past two years the lockdown has affected people in tremendous ways, people have 
                 not been able to shop the traditional way and have had to rely on online shopping. With 
                 few easy to navigate shopping apps, online shopping has been hard for those who are not 
                 technologically savvy. There is also a huge gap in non-binary clothing with has affected 
-                a group of minorities severely and i intented to significantly reduces this gap with my design.
+                a group of minorities severely and I intented to significantly reduces this gap with my design.
             </p>
             
-            <h2 className='case-h2'>Solution</h2>
-            <p className='case-p'>
+            <h2 className='case-h2 slide-in from-left'>Solution</h2>
+            <p className='case-p fade-in'>
                 I decided to tackle this problem by designing an app that is sufficient and diverse. I 
-                designed a clothing app for all ages, gender, and non-binary. 
+                designed a clothing app for all ages, gender, race and non-binary individuals. 
             </p>
 
             <div>
                 <img src={process} alt="design process" className='design-process'/>
             </div>
 
-            <h2 className='case-h2'>My Thought Process</h2>
-            <p className='case-p'>
+            <h2 className='case-h2 slide-in from-left'>My Thought Process</h2>
+            <p className='case-p fade-in'>
                 Looking for a name was one of the hardest parts of designing this website, I had a 
                 lot of name options but couldn't decide which name would suit my design so I decided 
                 to narrow it down to three options (Kazz, Domclothings and Lenis), I couldn't decide what 
@@ -77,7 +77,7 @@ export default function Lenis() {
             </h3>
 
             <div>
-                <img src={typo} alt="case typography" className='case-typo'/>
+                <img src={typo} alt="case typography fade-in" className='case-typo'/>
             </div>
 
             <h3 className='case-h3'>
@@ -85,14 +85,14 @@ export default function Lenis() {
             </h3>
 
             <div>
-                <img src={flow} alt="User flow" className='case-flow'/>
+                <img src={flow} alt="User flow" className='case-flow fade-in'/>
             </div>
 
             <h3 className='case-h3'>
                 Wire Frame
             </h3>
             <div>
-                <img src={wire} alt="User flow" className='case-wire'/>
+                <img src={wire} alt="User flow" className='case-wire fade-in'/>
             </div>
 
             <h3 className='case-h3'>
@@ -101,10 +101,10 @@ export default function Lenis() {
 
             <div className='final-flex'>
                 <div>
-                    <a href="https://www.figma.com/proto/DjZANabRxXQ12uMdIG1S9C/Lenis?page-id=333%3A2&node-id=377%3A366&viewport=241%2C48%2C0.15&scaling=scale-down&starting-point-node-id=333%3A8" className='link-class' target="_blank"><img src={final1} alt="final design" className='final-design'/></a>
+                    <a href="https://www.figma.com/proto/DjZANabRxXQ12uMdIG1S9C/Lenis?page-id=333%3A2&node-id=377%3A366&viewport=241%2C48%2C0.15&scaling=scale-down&starting-point-node-id=333%3A8" className='link-class' target="_blank"><img src={final1} alt="final design" className='final-design slide-in from-left'/></a>
                 </div>
                 <div>
-                    <a href="https://www.figma.com/proto/DjZANabRxXQ12uMdIG1S9C/Lenis?page-id=0%3A1&node-id=178%3A220&starting-point-node-id=41%3A643" className='link-class' target="_blank"><img src={final2} alt="final design" className='final-design'/></a>
+                    <a href="https://www.figma.com/proto/DjZANabRxXQ12uMdIG1S9C/Lenis?page-id=0%3A1&node-id=178%3A220&starting-point-node-id=41%3A643" className='link-class' target="_blank"><img src={final2} alt="final design" className='final-design slide-in from-right'/></a>
                 </div>
             </div>
 
@@ -114,16 +114,16 @@ export default function Lenis() {
 
             <div className='final-flex final-flex-last'>
                 <div>
-                    <a className='link-class' href="/case-study/cryptocoin"><img src={others1} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/cryptocoin"><img src={others1} alt="final design" className='final-design slide-in from-left'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/millers"><img src={others4} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/millers"><img src={others4} alt="final design" className='final-design slide-in from-right'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/jobfinds"><img src={others2} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/jobfinds"><img src={others2} alt="final design" className='final-design slide-in from-left'/></a>
                 </div>
                 <div>
-                    <a className='link-class' href="/case-study/illustration"><img src={others3} alt="final design" className='final-design'/></a>
+                    <a className='link-class' href="/case-study/illustration"><img src={others3} alt="final design" className='final-design slide-in from-right'/></a>
                 </div>
             </div>
         </section>
@@ -131,3 +131,41 @@ export default function Lenis() {
     </div>
   )
 }
+
+document.addEventListener("DOMContentLoaded", function() { 
+    const appearOptions = {
+        threshold:0,
+        rootMargin:"0px 0px -130px 0px"
+    }       
+
+    const faders = document.querySelectorAll(".fade-in")
+    const sliders = document.querySelectorAll(".slide-in")
+    const appearOnScroll = new IntersectionObserver
+    (function(
+        entries,
+        appearOnScroll
+    ){
+        entries.forEach(entry => {
+            if(!entry.isIntersecting){
+                return
+            }else{
+                entry.target.classList.add("appear")
+                appearOnScroll.unobserve(entry.target)
+            }
+    
+        })
+    },appearOptions)
+    
+    
+    faders.forEach(fader=>{
+        appearOnScroll.observe(fader)
+    })
+
+    sliders.forEach(slider=>{
+        appearOnScroll.observe(slider)
+    })
+
+});
+    
+
+

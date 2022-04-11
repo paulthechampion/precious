@@ -22,6 +22,7 @@ body{
 @import "./shared/contact.css";
 @import "./shared/gallery.css";
 @import "./shared/astro.css";
+@import "./shared/intersection.css";
 
 .link-class {
   text-decoration: none;
