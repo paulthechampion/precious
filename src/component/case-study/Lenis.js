@@ -132,7 +132,7 @@ export default function Lenis() {
   )
 }
 
-document.addEventListener("DOMContentLoaded", function() { 
+window.addEventListener("load", function(){
     const appearOptions = {
         threshold:0,
         rootMargin:"0px 0px -130px 0px"
