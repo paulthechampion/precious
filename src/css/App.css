@@ -8,6 +8,7 @@ html {
 
 body{
   background-color: black;
+  overflow-x: hidden
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Flamenco&family=Lemonada:wght@300&family=Metal+Mania&family=Roboto:wght@300&display=swap');
