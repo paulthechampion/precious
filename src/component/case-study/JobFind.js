@@ -15,7 +15,7 @@ import others4 from "../../img/case-study/millerfinal.png"
 
 export default function JobFind() {
   return (
-    <div>
+    <div className='case-main-div'>
         <div className='zoomers'>
             <img src={slide} alt="case-study-slide" className='case-study-slide'/>
         </div>

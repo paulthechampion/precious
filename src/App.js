@@ -38,6 +38,8 @@ function App() {
 
 
 window.addEventListener("load", function(){
+  var bodyS = document.body.style
+  bodyS.overflowX ="hidden"
   const appearOptions = {
       threshold:0,
       rootMargin:"0px 0px -130px 0px"

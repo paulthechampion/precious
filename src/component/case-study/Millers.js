@@ -14,7 +14,7 @@ import others4 from "../../img/case-study/jobFinal2.png"
 
 export default function Millers() {
   return (
-    <div>
+    <div className='case-main-div'>
         <div className='zoomers'>
             <img src={slide} alt="case-study-slide" className='case-study-slide'/>
         </div>
