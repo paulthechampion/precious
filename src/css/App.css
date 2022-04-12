@@ -35,6 +35,12 @@ body{
   color: red;
 }
 
+.link-class-two {
+  text-decoration: none;
+  color: black;
+  outline: none;
+}
+
 .astro {
   position: fixed;
   top:10em;

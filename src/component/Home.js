@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div id='wrapper'>
             <div id='float'>
-            <div className='astronaut'><img src={astro}/></div>
+            <div className='astronaut'><a href="https://www.figma.com/file/HeyF8bshTePBW37t8GYV97/PORTFOILO?node-id=327%3A1855" className='link-class-two' target="_blank"><img src={astro}/></a></div>
             {/* <!--<div class='floatin'>Access Trumps Ownership</div>
             <div class='behind'>Access Trumps Ownership</div>-->
             <!--<div class='bg'>Access Trumps Ownership</div>--> */}
