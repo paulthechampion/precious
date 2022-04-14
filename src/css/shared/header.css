@@ -95,7 +95,7 @@ header{
 .about-me-header {
     text-align: center;
     position: relative;
-    right: .7%;
+    right: .8%;
     top:1em;
 }
 
@@ -231,6 +231,10 @@ header{
         font-size: 3em;
         font-weight: unset;
     }
+    .about-me-header {
+        right: .7%;
+
+    }    
   }
 
   @media(min-width :1085px){   
