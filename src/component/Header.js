@@ -60,12 +60,14 @@ export default function Header() {
         <header>
             <div className={`header-first-div ${shadowStyle} ${hiddenStyle}`}>
                 <div className='first-header-bottom'>
+                    <div className='about-me-header'>About me</div>
                     <ul className='header-ul'>
                         <li>
                             <a href="/" className='header-link-1'>Works</a>
                         </li>
 
                         <li>
+                      
                         <i className={iconClass} onClick={()=>setShowMenu(!showMenu)}></i>
                         </li>
 
